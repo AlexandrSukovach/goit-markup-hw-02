@@ -45,6 +45,10 @@ body {
    color: var(--logo-color);
 }
 
+.site-nav .link.current {
+   color: var(--logo-color);
+}
+
 .auth-nav .link {
    color: var(--primary-text-color);
 }
