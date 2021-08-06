@@ -6,47 +6,46 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
+   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
-   <header>
+<body class="page">
+   <header class="page-header">
       <nav>
-         <a href="">WebStudio</a>
-         <ul>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+         <a href="" class="logo">Web<span>Studio</span></a>
+         <ul class="site-nav list">
+            <li><a href="" class="link">Студия</a></li>
+            <li><a href="" class="link">Портфолио</a></li>
+            <li><a href="" class="link">Контакты</a></li>
          </ul>
       </nav>
-      <ul>
-         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="auth-nav list">
+         <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+         <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
    </header>
    <main>
-      <section>
-         <header>
-            <nav>
-               <ul>
-                  <li>
-                     <button type="button">Все</button>
-                  </li>
-                  <li>
-                     <button type="button">Веб-сайты</button>
-                  </li>
-                  <li>
-                     <button type="button">Приложения</button>
-                  </li>
-                  <li>
-                     <button type="button">Дизайн</button>
-                  </li>
-                  <li>
-                     <button type="button">Маркетинг</button>
-                  </li>
-               </ul>
-            </nav>
-         </header>
-         <ul>
+      <section class="nav-portfolio">
+         <ul class="portfolio-menu list">
+            <li>
+               <button type="button" class="button old">Все</button>
+            </li>
+            <li>
+               <button type="button" class="button web">Веб-сайты</button>
+            </li>
+            <li>
+               <button type="button" class="button applic">Приложения</button>
+            </li>
+            <li>
+               <button type="button" class="button desing">Дизайн</button>
+            </li>
+            <li>
+               <button type="button" class="button market">Маркетинг</button>
+            </li>
+         </ul>
+      </section>
+      <section class="portfolio">
+         <ul class="portfolio-site list">
             <!--скрытый заголовок <h1>Портфолио</h1> -->
             <h1>Портфолио</h1>
             <li>
@@ -96,6 +95,8 @@
             </li>
          </ul>
       </section>
+
+
    </main>
    <footer>
       <a href="">WebStudio</a>

@@ -1,0 +1,126 @@
+:root {
+   --primary-text-color: #757575;
+   --title-text-color: #212121;
+   --accent-color: #FFFFFF;
+   --logo-color: #2196F3;
+   --body-background-color: #FFFFFF;
+   --logo-background-color: #2196F3;
+   --section-background: #2F303A;
+   --button-back-color: #F5F4FA;
+
+
+
+}
+
+body {
+   background-color: #FFFFFF;
+   color: var(--primary-text-color);
+}
+
+/* основной цвет color: #757575; */
+/* вторичный цвет color: #212121; */
+/* цвет прозрачный color: rgba(255, 255, 255, 0.6); */
+/* белый цвет color: #FFFFFF; */
+/* цвет лого color: #2196F3; */
+/* черный цвет  color: #000000;*/
+.list {
+   list-style: none;
+}
+
+.logo {
+   color: var(--logo-color);
+}
+
+.logo>span {
+   color: var(--title-text-color);
+}
+
+/* Site nav */
+.site-nav .link {
+   color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--logo-color);
+}
+
+.auth-nav .link {
+   color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+   color: var(--logo-color);
+}
+
+.hero {
+   background-color: #2F303A;
+   color: var(--accent-color);
+}
+
+.hero>button {
+   background-color: #2196F3;
+   color: var(--accent-color);
+}
+
+.declaration-list h3 {
+   color: var(--title-text-color);
+}
+
+.work-title,
+.our-team-title {
+   color: var(--title-text-color);
+}
+
+.our-team {
+   background-color: #F5F4FA;
+}
+
+.our-team li {
+   background-color: #FFFFFF;
+}
+
+.team-img h3 {
+   color: var(--title-text-color);
+}
+
+.button {
+   color: var(--title-text-color);
+   background-color: var(--button-back-color);
+   font-size: 16px;
+   text-align: center;
+   border: 1px solid var(--button-back-color);
+   border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+   background-color: var(--logo-color);
+   color: var(--accent-color);
+}
+
+.button.old {
+   width: 73px;
+   height: 38px;
+}
+
+.button.web {
+   width: 128px;
+   height: 38px;
+}
+
+.button.applic {
+   width: 145px;
+   height: 38px;
+}
+
+.button.desing {
+   width: 103px;
+   height: 38px;
+}
+
+.button.market {
+   width: 130px;
+   height: 38px;
+}
