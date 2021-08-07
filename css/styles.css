@@ -15,6 +15,7 @@
 body {
    background-color: #FFFFFF;
    color: var(--primary-text-color);
+   font-family: Roboto, sans-serif;
 }
 
 /* основной цвет color: #757575; */
@@ -27,8 +28,19 @@ body {
    list-style: none;
 }
 
+a {
+   text-decoration: none;
+}
+
+button {
+   font-family: inherit;
+}
+
 .logo {
    color: var(--logo-color);
+   font-family: Raleway, sans-serif;
+   Font-style: Bold;
+   Font-size: 26px;
 }
 
 .logo>span {
@@ -38,6 +50,8 @@ body {
 /* Site nav */
 .site-nav .link {
    color: var(--title-text-color);
+   font-size: 14px;
+   line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -61,6 +75,13 @@ body {
 .hero {
    background-color: #2F303A;
    color: var(--accent-color);
+}
+
+.hero-title {
+   font-style: 900;
+   font-size: 44px;
+   line-height: 1.36;
+
 }
 
 .hero>button {
@@ -127,4 +148,28 @@ body {
 .button.market {
    width: 130px;
    height: 38px;
+}
+
+footer {
+   background-color: var(--section-background);
+}
+
+.logo-footer {
+   color: var(--logo-color);
+   font-family: Raleway, sans-serif;
+}
+
+.logo-footer>span {
+   color: var(--accent-color);
+}
+
+.adress-footer {
+   color: var(--accent-color);
+   font-family: Raleway, sans-serif;
+   font-style: normal;
+}
+
+.contact-footer .link {
+   color: var(--primary-text-color);
+   font-family: Raleway, sans-serif;
 }
