@@ -8,14 +8,13 @@
    --section-background: #2F303A;
    --button-back-color: #F5F4FA;
    --accent-footer-color: #FFFFFF99;
-
-
 }
 
 body {
    background-color: #FFFFFF;
    color: var(--primary-text-color);
    font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
 }
 
 /* основной цвет color: #757575; */
@@ -56,6 +55,7 @@ button {
    font-weight: 500;
    font-size: 14px;
    line-height: 1.17;
+   letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -90,7 +90,7 @@ button {
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
-
+   letter-spacing: 0.06em;
 }
 
 .hero>button {
@@ -102,6 +102,7 @@ button {
    line-height: 1.8;
    height: 50px;
    width: 200px;
+   letter-spacing: 0.06em;
 }
 
 /* declaration */
@@ -110,7 +111,6 @@ button {
    font-size: 14px;
    font-weight: 700;
    line-height: 1.14;
-   letter-spacing: 0.03em;
 }
 
 .declaration-list p {
@@ -118,7 +118,6 @@ button {
    font-size: 14px;
    font-weight: 400;
    line-height: 1.71;
-   letter-spacing: 0.03em;
 }
 
 /* work */
@@ -128,10 +127,8 @@ button {
    font-size: 36px;
    font-weight: 700;
    line-height: 1.17;
-   letter-spacing: 0.03em;
    text-align: center;
 }
-
 
 /* our team */
 .our-team {
@@ -143,14 +140,12 @@ button {
    font-size: 16px;
    font-weight: 500;
    line-height: 1.17;
-   letter-spacing: 0.03em;
 }
 
 .team-img p {
    font-size: 16px;
    font-weight: 400;
    line-height: 1.19;
-   letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -176,16 +171,11 @@ footer {
    color: var(--accent-color);
    font-size: 14px;
    font-style: normal;
-   font-weight: 400;
    line-height: 1.71;
-   letter-spacing: 0.03em;
-
 }
 
 .contact-footer .link {
    color: var(--accent-footer-color);
-   font-size: 14px;
-   line-height: 1.71;
 }
 
 /* portfolio */
@@ -254,5 +244,4 @@ footer {
    font-size: 16px;
    font-weight: 400;
    line-height: 1.87;
-   letter-spacing: 0.03em;
 }
