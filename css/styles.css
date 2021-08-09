@@ -39,8 +39,8 @@ button {
 .logo {
    color: var(--logo-color);
    font-family: Raleway, sans-serif;
-   Font-style: Bold;
-   Font-size: 26px;
+   font-weight: 700;
+   font-size: 26px;
 }
 
 .logo>span {
@@ -75,10 +75,11 @@ button {
 .hero {
    background-color: #2F303A;
    color: var(--accent-color);
+   text-align: center;
 }
 
 .hero-title {
-   font-style: 900;
+   font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
 
@@ -87,6 +88,12 @@ button {
 .hero>button {
    background-color: #2196F3;
    color: var(--accent-color);
+   height: 50px;
+   width: 200px;
+   font-weight: 700;
+   border-radius: 4px;
+   font-size: 16px;
+   line-height: 1.8;
 }
 
 .declaration-list h3 {
@@ -100,10 +107,6 @@ button {
 
 .our-team {
    background-color: #F5F4FA;
-}
-
-.our-team li {
-   background-color: #FFFFFF;
 }
 
 .team-img h3 {
