@@ -45,7 +45,7 @@ button {
    letter-spacing: 0.03em;
 }
 
-.logo>span {
+.logo span {
    color: var(--title-text-color);
 }
 
@@ -93,7 +93,7 @@ button {
    letter-spacing: 0.06em;
 }
 
-.hero>button {
+.hero button {
    background-color: var(--logo-background-color);
    color: var(--accent-color);
    font-weight: 700;
@@ -162,7 +162,7 @@ footer {
    letter-spacing: 0.03em;
 }
 
-.logo-footer>span {
+.logo-footer span {
    color: var(--accent-color);
 
 }
@@ -178,8 +178,18 @@ footer {
    color: var(--accent-color);
 }
 
+.address-map:hover,
+.address-map:focus {
+   color: var(--logo-color);
+}
+
 .contact-footer .link {
    color: var(--accent-footer-color);
+}
+
+.contact-footer .link:hover,
+.contact-footer .link:focus {
+   color: var(--logo-color);
 }
 
 /* portfolio */
