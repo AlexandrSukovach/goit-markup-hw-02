@@ -34,6 +34,7 @@ a {
 /* studio */
 button {
    font-family: inherit;
+   cursor: pointer;
 }
 
 .logo {
