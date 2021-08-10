@@ -195,7 +195,7 @@ footer {
 }
 
 /* portfolio */
-.portfolio-menu .button {
+.button-menu {
    color: var(--title-text-color);
    background-color: var(--button-back-color);
    font-weight: 500;
@@ -206,33 +206,33 @@ footer {
    border-radius: 4px;
 }
 
-.button:hover,
-.button:focus {
+.button-menu:hover,
+.button-menu:focus {
    background-color: var(--logo-color);
    color: var(--accent-color);
 }
 
-.button.old {
+.old-menu {
    width: 73px;
    height: 38px;
 }
 
-.button.web {
+.web-menu {
    width: 128px;
    height: 38px;
 }
 
-.button.applic {
+.applic-menu {
    width: 145px;
    height: 38px;
 }
 
-.button.desing {
+.desing-menu {
    width: 103px;
    height: 38px;
 }
 
-.button.market {
+.market-menu {
    width: 130px;
    height: 38px;
 }
